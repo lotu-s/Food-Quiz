@@ -1,0 +1,15 @@
+body {
+  font-family: 'Lato', sans-serif
+}
+
+#purple_text {
+  color: purple;
+}
+
+.blue_text{
+  color: blue;
+}
+
+.red_bg{
+  background-color: red;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<p>
+		Note the the "cascading" nature of CSS
+	</p>
+	<p>
+		Even though we only styled the font of the body and not the p tag
+	</p>
+	<p>
+		The styles from the body "cascaded" down into all elements within it
+	</p>
+
+	<br>
+
+	<p>
+		But what if we want to style the same elements separately from each other?
+	</p>
+	<p>
+		For that we use either a class or id
+	</p>
+	<p id="red_text">
+		Classes can be reused for multiple elements, id cannot
+	</p>
+	<p class="blue_text">
+		The order of precedence goes classes/id > innermost CSS > outermost CSS
+	</p>
+	<p class="blue_text">
+		So in this example: class > p > body
+	</p>
+
+	<br>
+
+	<div class="blue_text yellow_bg">
+		<p>
+			You can use a div tag to form a divison around several elements
+		</p>
+		<p>
+			You can use several classes on one single element, too
+		</p>
+		<p>
+			Or a class and an id
+		</p>
+		<p>
+			But not several ids at once
+		</p>
+	</div>
+</body>
+</html>
